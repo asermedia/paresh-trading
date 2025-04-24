@@ -360,24 +360,25 @@ nav ul li a:hover::after {
     transition: all 0.3s ease;
 }
 
-.logo-slide:hover {
+/* .logo-slide:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .logo-slide img {
     max-width: 100%;
     height: auto;
-    filter: grayscale(100%);
-    opacity: 0.7;
+    /* filter: grayscale(100%); */
+    /* opacity: 0.7; */
     transition: all 0.3s ease;
 }
 
-.logo-slide:hover img {
+/* .logo-slide:hover img {
     filter: grayscale(0);
     opacity: 1;
-}
+} */
 
+/* Brand Details Styles */
 /* Brand Details Styles */
 .brand-tabs-container {
     margin-bottom: 40px;
@@ -442,8 +443,9 @@ nav ul li a:hover::after {
 .brand-image img {
     width: 100%;
     height: auto;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Fixed width */
+    object-fit: cover;
+    border-radius: 8px;
     transition: all 0.3s ease;
 }
 
@@ -471,6 +473,23 @@ nav ul li a:hover::after {
     font-size: 16px;
     line-height: 1.8;
 }
+
+/* Responsive design for small screens */
+/* @media (max-width: 768px) {
+    .brand-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .brand-image {
+        padding-right: 0;
+    }
+
+    .brand-image img {
+        max-width: 100%;
+    }
+} */
+
 
 /* Discount Section Styles */
 .discount-section {
