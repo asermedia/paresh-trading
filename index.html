@@ -1,383 +1,568 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paresh Trading - Premium Pipe Distributor</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="assets/psco.jpeg?height=60&width=180" alt="Paresh Trading Logo" class="logo-img">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <!-- Hero Carousel Section -->
-    <section class="hero-carousel">
-        <div class="carousel-container">
-            <div class="carousel-slide active" style="background-image: url('assets/hero1.webp?height=600&width=1600')">
-                <div class="carousel-content">
-                    <h2>Exclusive Deals on Quality Hardware & Plumbing soltuions</h2>
-                    <p>Discover unbeatable prices on our top-quality Hardware & Plumbing soltuions and plumbing supplies. Take advantage of these limited-time offers to upgrade your projects with the best materials.</p>
-                    <a href="#products" class="btn">Shop Deals</a>
-                </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paresh Trading - Pipe Solutions</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+
+
+    <header>
+         <div class="container">
+             <div class="logo">
+              <img src="assets/psco.jpeg?height=60&width=180" alt="Paresh Trading Logo" class="logo-img">
             </div>
-           
+             <nav>
+                 <ul>
+                     <li><a href="#products">Products</a></li>
+                     <li><a href="#about">About Us</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                 </ul>
+             </nav>
+             <button class="menu-toggle" aria-label="Toggle menu">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+             </button>
+         </div>
+     </header>
+ 
+    <!-- Hero Carousel -->
+    <section class="hero">
+      <div class="hero-slider">
+        <!-- Slide 1 -->
+        <div class="hero-slide active">
+          <div
+            class="hero-image"
+            style="
+              background-image: url('assets/hero1.webp?height=800&width=1600&text=Quality Pipes');
+            "
+          ></div>
+          <div class="container">
+            <div class="hero-content">
+              <h1>Exclusive Deals on Quality Hardware & Plumbing soltuions</h1>
+              <p>From residential to commercial projects, we have the right Hardware & Plumbing soltuions and fittings for all your plumbing needs. Quality products at competitive prices.</p>
+
+              <a href="#products" class="btn">Explore Products</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 (with logo) -->
+        <div class="hero-slide">
+          <div
+            class="hero-image"
+            style="
+              background-image: url('');
+            "
+          ></div>
+          <div class="container">
+            <div class="hero-content split">
+              <div class="content-left">
+                <h1>Trusted by Professionals</h1>
+                <p>
+                  With decades of experience in the industry, we provide the
+                  highest quality piping solutions
+                </p>
+                <a href="#about" class="btn">Learn More</a>
+              </div>
+              <div class="content-right">
+                <img
+                  src="/assets/psco.jpeg?height=300&width=300&text=Paresh Trading"
+                  alt="Paresh Trading Logo"
+                  class="hero-logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="hero-slide">
+          <div
+            class="hero-image"
+            style="
+              background-image: url('assets/hero2.jpeg?height=800&width=1600&text=Expert Solutions');
+            "
+          ></div>
+          <div class="container">
+            <div class="hero-content">
+              <h1>Complete Plumbing Solutions</h1>
+              <p>From residential to commercial projects, we have the right Hardware & Plumbing soltuions and fittings for all your plumbing needs. Quality products at competitive prices.</p>
+
+              <a href="#brands" class="btn">View Brands</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="slider-controls">
+          <button class="prev-slide" aria-label="Previous slide">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="slider-dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+          </div>
+          <button class="next-slide" aria-label="Next slide">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands Carousel -->
+
+    <section id="brands" class="brands-section">
+      <div class="container">
+        <h2 class="section-title">Brands We Deal In</h2>
+        <div class="brands-wrapper">
+          <div class="brands-track">
+            <div class="brand-logo">
+              <img
+                src="https://mme2000.com.sg/wp-content/uploads/2019/04/Astral-Pipes-Blue.png?height=100&width=200"
+                alt="Brand Logo 1"
+              />
+            </div>
+            <div class="brand-logo">
+              <img
+                src="https://www.nerofixindia.com/wp-content/uploads/2021/01/Nerolac-logo-12-2048x164.png?height=100&width=200"
+                alt="Brand Logo 6"
+              />
+            </div>
+            <div class="brand-logo">
+              <img src="/assets/yuri logo 2.png" alt="Finolex" />
+            </div>
+            <div class="brand-logo">
+              <img src="/assets/qera logo (1).png" alt="Ashirvad" />
+            </div>
+            <div class="brand-logo">
+              <img
+                src="https://companieslogo.com/img/orig/PIDILITIND.NS_BIG-bc2f4e2a.png?t=1601648657?height=100&width=180&text=Brand 8"
+                alt="Prince"
+              />
+            </div>
+            <div class="brand-logo">
+              <img
+                src="https://www.hpadhesives.com/wp-content/uploads/2014/08/HP-ADHESIVES-LIMITED-LOGO.png?height=100&width=180&text=Brand 7"
+                alt="Jindal"
+              />
+            </div>
+            <div class="brand-logo">
+              <img
+                src="https://5.imimg.com/data5/SELLER/Logo/2022/2/CC/YG/OT/40289861/fp-flovvingo-jpg-2aaaa.png?height=100&width=180&text=Brand 6"
+                alt="Apollo"
+              />
+            </div>
+            <div class="brand-logo">
+              <img
+                src="https://hindware.com/who-we-are/images/truflo-new1.png?height=100&width=180&text=Brand 5"
+                alt="Ori-Plast"
+              />
+            </div>
+            <div class="brand-logo">
+              <img
+                src="https://companieslogo.com/img/orig/PRINCEPIPE.NS_BIG-ae24741c.png?t=1604670428&View=true?height=100&width=180&text=Brand 4"
+                alt="Ajay"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+      <div class="container">
+        <h2>Our Product Range</h2>
+
+        <!-- Brand Navigation -->
+        <div class="brand-nav flex flex-wrap gap-2 mt-4">
+          <button class="brand-btn active" data-brand="astral">Astral Pipes</button>
+          <button class="brand-btn" data-brand="Yuri">Yuri</button>
+          <button class="brand-btn" data-brand="Truflo">Truflo</button>
+          <button class="brand-btn" data-brand="finolex">Finolex</button>
+          <button class="brand-btn" data-brand="Qera">Qera</button>
+          <button class="brand-btn" data-brand="Prince Pipes">Prince Pipes</button>
+          <button class="brand-btn" data-brand="Pidilite">Pidilite</button>
+          <button class="brand-btn" data-brand="Nerofix">Nerofix</button>
+          <button class="brand-btn" data-brand="JK Tools">JK Tools</button>
+          <button class="brand-btn" data-brand="Godrej Locks">Godrej Locks</button>
+          <button class="brand-btn" data-brand="Flowingo">Flowingo</button>
+          <button class="brand-btn" data-brand="HP Adhesives">HP Adhesives</button>
+        </div>
+        
+
+        <!-- Brand Content -->
+        <div class="brand-contents">
+          <div class="brand-section active" id="astral">
+            <div class="product-box">
+              <div class="product-image">
+                <img src="https://mme2000.com.sg/wp-content/uploads/2019/04/Astral-Pipes-Blue.png?height=400&width=600&text=Astral Hardware & Plumbing soltuions" alt="Astral Hardware & Plumbing soltuions"  />
+              </div>
+              <div class="product-content">
+                <h3>Astral Pipes</h3>
+                <p>
+                  Astral offers a full range of piping systems for plumbing,
+                  drainage, and industrial use — known for reliability and
+                  quality.
+                </p>
+                <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa">View Catalogue</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="brand-section" id="finolex">
+            <div class="product-box">
+              <div class="product-image">
+                <img src="./assets/Finolex-Logo.png?height=400&width=600" alt="Finolex Hardware & Plumbing soltuions" alt="Supreme Pipes" />
+              </div>
+              <div class="product-content">
+                <h3>Finolex</h3>
+                <p>
+                  Finolex is one of India's largest manufacturers of PVC Hardware & Plumbing soltuions and fittings, known for their durability and reliability in plumbing and agricultural applications.
+                </p>
+                <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa">View Catalogue</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="brand-section" id="Yuri">
+            <div class="product-box">
+              <div class="product-image">
+                <img src="./assets/yuri logo 2.png?height=400&width=600&text=Yuri" alt="Finolex Hardware & Plumbing soltuions" alt="Supreme Pipes" />
+              </div>
+              <div class="product-content">
+                <h3>
+                  Yuri</h3>
+                <p>
+                  Yuri provides high-quality piping solutions for plumbing, drainage, and agriculture, with a focus on innovation and customer satisfaction.                </p>
+                <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa">View Catalogue</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="brand-section" id="Truflo">
+            <div class="product-box">
+              <div class="product-image">
+                <img src="./assets/truflo logo.png?height=400&width=600&text=Trueflo" alt="Finolex Hardware & Plumbing soltuions" alt="Supreme Pipes" />
+              </div>
+              <div class="product-content">
+                <h3>
+                  Truflo</h3>
+                <p>
+                  Truflo provides high-quality piping solutions for plumbing, drainage, and agriculture, with a focus on innovation and customer satisfaction.                </p>
+                <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa">View Catalogue</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="brand-section" id="Prince Pipes">
+            <div class="product-box">
+              <div class="product-image">
+                <img src="./assets/princepp logo.png?height=400&width=600&text=Prince Pipes" alt="Finolex Hardware & Plumbing soltuions" alt="Supreme Pipes" />
+              </div>
+              <div class="product-content">
+                <h3>
+                  Prince Pipes</h3>
+                <p>
+                  Prince Pipes provides high-quality piping solutions for plumbing, drainage, and agriculture, with a focus on innovation and customer satisfaction.                </p>
+                <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa">View Catalogue</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="brand-section" id="Pidilite">
+            <div class="product-box">
+              <div class="product-image">
+                <img src="./assets/pidilite-logo-1.png?height=400&width=600&text=Pidilite" alt="Finolex Hardware & Plumbing soltuions" alt="Supreme Pipes" />
+              </div>
+              <div class="product-content">
+                <h3>
+                  Pidilite</h3>
+                <p>
+                  Pidilite provides high-quality piping solutions for plumbing, drainage, and agriculture, with a focus on innovation and customer satisfaction.                </p>
+                <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa">View Catalogue</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="brand-section" id="Nerofix">
+            <div class="product-box">
+              <div class="product-image">
+                <img src="https://www.nerofixindia.com/wp-content/uploads/2021/01/Nerolac-logo-12-2048x164.png?height=400&width=600&text=Nerofix" alt="Finolex Hardware & Plumbing soltuions" alt="Supreme Pipes" />
+              </div>
+              <div class="product-content">
+                <h3>
+                  Nerofix</h3>
+                <p>
+                  Nerofix provides high-quality piping solutions for plumbing, drainage, and agriculture, with a focus on innovation and customer satisfaction.                </p>
+                <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa">View Catalogue</a>
+              </div>
+            </div>
+          </div>
+          <!-- Add more brand-section blocks here -->
+        </div>
+      </div>
+
+      <div class="brand-section" id="JK Tools">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="./assets/jk tools.png?height=400&width=600&text=JKTools" alt="JK Tools" />
+          </div>
+          <div class="product-content">
+            <h3>
+              JK Tools</h3>
+            <p>
+              JK Tools provides high-quality piping solutions for plumbing, drainage, and agriculture, with a focus on innovation and customer satisfaction.                </p>
+            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa">View Catalogue</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="brand-section" id="Godrej Locks">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="assets/Godrej-Locks-Logo.png?height=400&width=600&text=Godrej Locks" alt="Godrej Lock" />
+          </div>
+          <div class="product-content">
+            <h3>
+              Godrej Lock</h3>
+            <p>
+              Godrej Locks and Products Limited is a leading manufacturer of PVC, CPVC, and HDPE Hardware & Plumbing soltuions and fittings for various applications.</p>
+              <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa">View Catalogue</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="brand-section" id="Flowingo">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="./assets/Flowingo Logo.png?height=400&width=600&text=Flowingo" alt="Flowingo">
+          </div>
+          <div class="product-content">
+            <h3>
+              Flowingo</h3>
             
-            <div class="carousel-slide" style="background-image: url('assets/hero2.jpeg?height=600&width=1600')">
-                <div class="carousel-content">
-                    <h2>Complete Plumbing Solutions</h2>
-                    <p>From residential to commercial projects, we have the right Hardware & Plumbing soltuions and fittings for all your plumbing needs. Quality products at competitive prices.</p>
-                    <a href="#products" class="btn">View Products</a>
-                </div>
-            </div>
+              <p>Vectus Industries Limited is one of India's fastest-growing pipe and water storage solution companies, offering a wide range of products.</p>
+              <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa">View Catalogue</a>
+          </div>
         </div>
-        <div class="carousel-dots">
-            <span class="dot active" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+      <div class="brand-section" id="HP Adhesives">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="./assets/hp-adhesives-limited logo.png?height=400&width=600&text=HP Adhesives" alt="HP Adhesives">
+          </div>
+          <div class="product-content">
+            <h3>
+              HP Adhesives</h3>
+            
+              <p>Vectus Industries Limited is one of India's fastest-growing pipe and water storage solution companies, offering a wide range of products.</p>
+              <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa">View Catalogue</a>
+          </div>
         </div>
-        <button class="carousel-prev" onclick="changeSlide(-1)">&#10094;</button>
-        <button class="carousel-next" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+
+      <div class="brand-section" id="Qera">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="./assets/qera logo (1).png?height=400&width=600&text=Qera" alt="Qera">
+          </div>
+          <div class="product-content">
+            <h3>
+              Qera</h3>
+            
+              <p>Qera Limited is a renowned manufacturer of high-quality steel Hardware & Plumbing soltuions and tubes, catering to various industrial and construction needs.</p>
+              <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa">View Catalogue</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add more brand-section blocks here -->
+    </div>
+  </div>
     </section>
 
     <!-- About Us Section -->
     <section id="about" class="about-section">
-        <div class="container">
-            <div class="about-content">
-                <h2>About Us</h2>
-                <p>Established in the year 2017 we "Paresh Trading Co".are engaged as the,PTFE Thread Tapes, Door Closer, Table Chain etc.The products are highly acknowledged.They are known to make use of the best quality components, coupled with the latest technology.</p>
-
-                   <p>We have an advanced infrastructural base that is equipped with all the essential amenities. Thus, we aim to understand the diverse needs of our clients and offer suitable range of products. Being a client-centric firm, our main is to accomplish the customers’ needs very competently.
-                    Under the guidance of our mentor “Mr.Paresh Thakkar. ” we have become the best option of our clients. Our mentor has years of understanding of this arena.
-                    For more information, please visit</p>
-                <a href="#products" class="btn">Explore Hardware & Plumbing soltuions</a>
-            </div>
-            <div class="about-logo">
-                <div class="logo-container">
-                    <img src="assets/psco.jpeg?height=200&width=300" alt="Paresh Trading Logo" class="about-logo-img">
+      <div class="container">
+        <div class="about-wrapper">
+          <div class="about-content">
+            <h2 class="section-title">About Us</h2>
+            <p>
+              Established in the year 2017 we “Paresh Trading Co.” are engaged
+              as the,PTFE Thread Tapes, Door Closer, Table Chain Wide range of
+              Plumbing Solvent , Pipes and Fittings , CP Fitting, PTFE Tapflone
+              Tape, Waste pipe, Sink Cupling, Extentions, and many more. The
+              products are highly acknowledged. They are known to make use of
+              the best quality components, coupled with the latest technology.
+            </p>
+            <p>
+              We have an advanced infrastructural base that is equipped with all
+              the essential amenities. Thus, we aim to understand the diverse
+              needs of our clients and offer suitable range of products. Being a
+              client-centric firm, our main is to accomplish the customers’
+              needs very competently. Under the guidance of our mentor “Mr
+              Subhash Thakkar” we have become the best option of our clients.
+              Our mentor has years of understanding of this arena. For more
+              information, please visit
+            </p>
+            <div class="about-features">
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fas fa-medal"></i>
                 </div>
+                <div class="feature-text">
+                  <h3>Quality Assurance</h3>
+                  <p>All our products meet the highest industry standards</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fas fa-truck"></i>
+                </div>
+                <div class="feature-text">
+                  <h3>Prompt Delivery</h3>
+                  <p>Efficient logistics to meet your project timelines</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fas fa-headset"></i>
+                </div>
+                <div class="feature-text">
+                  <h3>Expert Support</h3>
+                  <p>Technical guidance from industry professionals</p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-
-    <!-- Brands Section -->
-    <section class="brands-section" id="products">
-        <div class="container">
-            <h2>Brands We Deal With</h2>
-            
-            <!-- Logo Carousel -->
-            <div class="logo-carousel-container">
-                <div class="logo-carousel">
-                    <div class="logo-slide">
-                        <img src="https://mme2000.com.sg/wp-content/uploads/2019/04/Astral-Pipes-Blue.png?height=100&width=180&text=Brand 1" alt="Brand Logo 1">
-                    </div>
-                    <div class="logo-slide">
-                        <img src="https://1.bp.blogspot.com/-JEXVlcIln1U/UDkUXP9nmCI/AAAAAAAAEJM/c0maqqUJpJk/s280/godrej_security_solutions_logo.png?height=100&width=180&text=Brand 2" alt="Brand Logo 2">
-                    </div>
-                    <div class="logo-slide">
-                        <img src="https://www.nerofixindia.com/wp-content/uploads/2021/01/Nerolac-logo-12-2048x164.png?height=100&width=180&text=Brand 3" alt="Brand Logo 3">
-                    </div>
-                    <div class="logo-slide">
-                        <img src="https://companieslogo.com/img/orig/PRINCEPIPE.NS_BIG-ae24741c.png?t=1604670428&View=true?height=100&width=180&text=Brand 4" alt="Brand Logo 4">
-                    </div>
-                    <div class="logo-slide">
-                        <img src="https://hindware.com/who-we-are/images/truflo-new1.png?height=100&width=180&text=Brand 5" alt="Brand Logo 5">
-                    </div>
-                    <div class="logo-slide">
-                        <img src="https://5.imimg.com/data5/SELLER/Logo/2022/2/CC/YG/OT/40289861/fp-flovvingo-jpg-2aaaa.png?height=100&width=180&text=Brand 6" alt="Brand Logo 6">
-                    </div>
-                    <div class="logo-slide">
-                        <img src="https://www.hpadhesives.com/wp-content/uploads/2014/08/HP-ADHESIVES-LIMITED-LOGO.png?height=100&width=180&text=Brand 7" alt="Brand Logo 7">
-                    </div>
-                    <div class="logo-slide">
-                        <img src="https://companieslogo.com/img/orig/PIDILITIND.NS_BIG-bc2f4e2a.png?t=1601648657?height=100&width=180&text=Brand 8" alt="Brand Logo 8">
-                    </div>
-                    <div class="logo-slide">
-                        <img src="assets/yuri logo 2.png" alt="Brand Logo 9">
-                    </div>
-                    <div class="logo-slide">
-                        <img src="assets/qera logo.png" alt="Brand Logo 10">
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Brand Details -->
-            <div class="brand-details">
-                <div class="brand-tabs-container">
-                    <div class="brand-tabs">
-                        <button class="brand-tab active" data-brand="brand1">Astral Pipes</button>
-                        <button class="brand-tab" data-brand="brand2">Supreme Hardware</button>
-                        <button class="brand-tab" data-brand="brand3">Finolex </button>
-                        <button class="brand-tab" data-brand="brand4">Yuri</button>
-                        <button class="brand-tab" data-brand="brand5">Trueflo</button>
-                        <button class="brand-tab" data-brand="brand6">Qera</button>
-                        <button class="brand-tab" data-brand="brand7">Prince Pipes</button>
-                    </div>
-                    <div class="brand-tabs second-row">
-                        <button class="brand-tab" data-brand="brand8">Pidilite</button>
-                        <button class="brand-tab" data-brand="brand9">Nerofix</button>
-                        <button class="brand-tab" data-brand="brand10">JK Tools</button>
-                        <button class="brand-tab" data-brand="brand11">Godrej Locks</button>
-                        <button class="brand-tab" data-brand="brand12">Flowingo</button>
-                        <button class="brand-tab" data-brand="brand13">HP Adhesives</button>
-                    </div>
-                </div>
-                
-                <div class="brand-content">
-                    <!-- Brand 1 -->
-                    <div class="brand-info active" id="brand1">
-                        <div class="brand-image">
-                            <img src="https://mme2000.com.sg/wp-content/uploads/2019/04/Astral-Pipes-Blue.png?height=400&width=600&text=Astral Hardware & Plumbing soltuions" alt="Astral Hardware & Plumbing soltuions">
-                        </div>
-                        <div class="brand-description">
-                            <h3>Astral Pipes</h3>
-                            <p>Astral Pipes, born in Gujarat in 1996, has revolutionized the piping industry with world-class, innovative solutions. A pioneer in bringing CPVC to India.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Brand 2 -->
-                    <div class="brand-info" id="brand2">
-                        <div class="brand-image">
-                            <img src="./assets/supreme logo.png?height=400&width=600" alt="Supreme Hardware & Plumbing soltuions">
-                        </div>
-                        <div class="brand-description">
-                            <h3>Supreme Hardware </h3>
-                            <p>Supreme Hardware offers a comprehensive range of plastic piping solutions for various applications including plumbing, agriculture, and industrial use.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Brand 3 -->
-                    <div class="brand-info" id="brand3">
-                        <div class="brand-image">
-                            <img src="./assets/Finolex-Logo.png?height=400&width=600" alt="Finolex Hardware & Plumbing soltuions">
-                        </div>
-                        <div class="brand-description">
-                            <h3>Finolex </h3>
-                            <p>Finolex is one of India's largest manufacturers of PVC Hardware & Plumbing soltuions and fittings, known for their durability and reliability in plumbing and agricultural applications.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Brand 4 -->
-                    <div class="brand-info" id="brand4">
-                        <div class="brand-image">
-                            <img src="./assets/yuri logo 2.png?height=400&width=600&text=Yuri" alt="Ashirvad Hardware & Plumbing soltuions">
-                        </div>
-                        <div class="brand-description">
-                            <h3>Yuri</h3>
-                            <p>Yuri provides high-quality piping solutions for plumbing, drainage, and agriculture, with a focus on innovation and customer satisfaction.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Brand 5 -->
-                    <div class="brand-info" id="brand5">
-                        <div class="brand-image">
-                            <img src="./assets/truflo logo.png?height=400&width=600&text=Trueflo" alt="Trueflo">
-                        </div>
-                        <div class="brand-description">
-                            <h3>Trueflo</h3>
-                            <p>Trueflo and Fittings Ltd. is one of India's largest integrated piping solutions manufacturers with a strong legacy of over 30 years in the industry.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Brand 6 -->
-                    <div class="brand-info" id="brand6">
-                        <div class="brand-image">
-                            <img src="./assets/qera logo (1).png?height=400&width=600&text=Qera" alt="Qera">
-                        </div>
-                        <div class="brand-description">
-                            <h3>Qera</h3>
-                            <p>Qera Limited is a renowned manufacturer of high-quality steel Hardware & Plumbing soltuions and tubes, catering to various industrial and construction needs.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Brand 7 -->
-                    <div class="brand-info" id="brand7">
-                        <div class="brand-image">
-                            <img src="./assets/princepp logo.png?height=400&width=600&text=Prince Pipes" alt="Prince Pipes">
-                        </div>
-                        <div class="brand-description">
-                            <h3>Prince Pipes</h3>
-                            <p>Prince Pipes Limited is among the top 10 leading piping solution providers in India with a strong presence in the PVC pipe segment.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Brand 8 -->
-                    <div class="brand-info" id="brand8">
-                        <div class="brand-image">
-                            <img src="./assets/pidilite-logo-1.png?height=400&width=600&text=Pidilite" alt="Pidilite">
-                        </div>
-                        <div class="brand-description">
-                            <h3>Pidilite</h3>
-                            <p>Ori-Plast is a leading manufacturer of PVC, CPVC, and HDPE Hardware & Plumbing soltuions and fittings, serving the agricultural, plumbing, and industrial sectors.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Brand 9 -->
-                    <div class="brand-info" id="brand9">
-                        <div class="brand-image">
-                            <img src="https://www.nerofixindia.com/wp-content/uploads/2021/01/Nerolac-logo-12-2048x164.png?height=400&width=600&text=Nerofix" alt="Nerofix">
-                        </div>
-                        <div class="brand-description">
-                            <h3>Nerofix</h3>
-                            <p>Nerofix is a trusted name in the piping industry, offering a wide range of PVC Hardware & Plumbing soltuions and fittings for various applications.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Brand 10 -->
-                    <div class="brand-info" id="brand10">
-                        <div class="brand-image">
-                            <img src="./assets/jk tools.png?height=400&width=600&text=JKTools" alt="JK Tools">
-                        </div>
-                        <div class="brand-description">
-                            <h3>JK Tools</h3>
-                            <p>JK Tools manufactures a comprehensive range of plumbing and agricultural Hardware & Plumbing soltuions, known for their durability and performance.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Brand 11 -->
-                    <div class="brand-info" id="brand11">
-                        <div class="brand-image">
-                            <img src="assets/Godrej-Locks-Logo.png?height=400&width=600&text=Godrej Locks" alt="Godrej Locks">
-                        </div>
-                        <div class="brand-description">
-                            <h3>Godrej Locks</h3>
-                            <p>Godrej Locks and Products Limited is a leading manufacturer of PVC, CPVC, and HDPE Hardware & Plumbing soltuions and fittings for various applications.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Brand 12 -->
-                    <div class="brand-info" id="brand12">
-                        <div class="brand-image">
-                            <img src="./assets/Flowingo Logo.png?height=400&width=600&text=Flowingo" alt="Flowingo">
-                        </div>
-                        <div class="brand-description">
-                            <h3>Flowingo</h3>
-                            <p>Vectus Industries Limited is one of India's fastest-growing pipe and water storage solution companies, offering a wide range of products.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Brand 13 -->
-                    <div class="brand-info" id="brand13">
-                        <div class="brand-image">
-                            <img src="./assets/hp-adhesives-limited logo.png?height=400&width=600&text=HP Adhesives" alt="HP Adhesives">
-                        </div>
-                        <div class="brand-description">
-                            <h3>HP Adhesives</h3>
-                            <p>Dutron Polymers Limited is a leading manufacturer of PVC Hardware & Plumbing soltuions and fittings, known for their quality and reliability in various applications.</p>
-                            <a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa" class="btn">View Catalogue</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Discount Section -->
-    <!-- <section class="discount-section">
-        <div class="container">
-            <div class="discount-content">
-                <h2>Exclusive Discounts Await!</h2>
-                <p>Take advantage of our limited-time offers on high-quality Hardware & Plumbing soltuions and plumbing supplies. Enjoy significant savings when you buy in bulk or during our special sales events.</p>
-                <a href="#products" class="btn">Shop Now</a>
-            </div>
-            <div class="discount-image">
-                <img src="assets/7qndq2gf.png?height=400&width=600&text=Special Offers" alt="Special Offers">
-            </div>
-        </div>
-    </section> -->
 
     <!-- Footer -->
     <footer id="contact">
-        <div class="container">
-            <div class="footer-columns">
-                <div class="footer-column">
-                    <h3>Product Categories</h3>
-                    <ul>
-                        <li><a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa?usp=drive_link">Godrej Locks</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa?usp=drive_link">Finolex</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa?usp=drive_link">Turflow</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa?usp=drive_link">Pidilite</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa?usp=drive_link">Flowingo</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa?usp=drive_link">HP Adhesive</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa?usp=drive_link">Qera</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1x6pPIoqiBhyT7c8xXjaYcHtl0av6jVPa?usp=drive_link">Yuri</a>
-                        <li><a href="#products">View More</a></li>
-                    </ul>
-                </div>
-                
-                <!-- <div class="footer-column">
-                    <h3>Specialized Solutions</h3>
-                    <ul>
-                        <li><a href="#">Premium-steel-Hardware & Plumbing soltuions</a></li>
-                        <li><a href="#">Copper-Hardware & Plumbing soltuions</a></li>
-                        <li><a href="#">PVC-Hardware & Plumbing soltuions</a></li>
-                        <li><a href="#">CPVC-Hardware & Plumbing soltuions</a></li>
-                        <li><a href="#">HDPE-Hardware & Plumbing soltuions</a></li>
-                    </ul>
-                </div> -->
-                
-                <div class="footer-column">
-                    <h3>Contact Us</h3>
-                    <ul class="contact-info">
-                        <li><i class="fas fa-phone"></i> +91 9920074507</li>
-                        <li><i class="fas fa-envelope"></i> info@pareshtrading.com</li>
-                        <li><i class="fas fa-map-marker-alt"></i>Kalher Village , Bhiwandi , Thane-421302</li>
-                    </ul>
-                </div>
-                
-                <div class="footer-column">
-                    <h3>Subscribe to Our Newsletter</h3>
-                    <p>Stay up-to-date with the latest news and product releases from Paresh Trading Co.</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Enter your email">
-                        <button type="submit">Subscribe</button>
-                    </form>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <!-- <div class="footer-column">
+                <h3>Product Categories</h3>
+                <ul>
+                    <li><a href="#">CPVC Pipes</a></li>
+                    <li><a href="#">UPVC Pipes</a></li>
+                    <li><a href="#">HDPE Pipes</a></li>
+                    <li><a href="#">PPR Pipes</a></li>
+                    <li><a href="#">SWR Pipes</a></li>
+                    <li><a href="#">Agriculture Pipes</a></li>
+                </ul>
+            </div> -->
+
+          <div class="footer-column">
+            <h3>Our Brands</h3>
+            <ul class="brand-list">
+              <li><a href="#astral-content">Astral Pipes</a></li>
+              <li><a href="#supreme-content">Flowingo</a></li>
+              <li><a href="#finolex-content">Finolex</a></li>
+              <li><a href="#ashirvad-content">Turflow</a></li>
+              <li><a href="#prince-content">Prince Pipes</a></li>
+              <li><a href="#jindal-content">HP Adhesive</a></li>
+              <li><a href="#apollo-content">Qera</a></li>
+              <li><a href="#oriplast-content">JK Tools</a></li>
+              <li><a href="#ajay-content">Yuri</a></li>
+              <li><a href="#skipper-content"> Pidilite</a></li>
+              <li><a href="#texmo-content"> Nerofix</a></li>
+              <li><a href="#vectus-content">Flowingo</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul class="contact-list">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Kalher Village, Bhiwandi, Thane-421302</span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <span>+91 9920074507</span>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <span>ptco.admin@gmail.com</span>
+              </li>
+            </ul>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="WhatsApp"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
             </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2025 Paresh Trading Co. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="https://asermedia.github.io/home/">Developed by AserMedia</a>
-                    <a href="#">Terms and Conditions</a>
-                    <a href="#">Privacy Policy</a>
-                </div>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://instagram.com/pareshtradingcox"><i class="fab fa-instagram"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=919920074507"><i class="fab fa-whatsapp"></i></a>
-                </div>
-            </div>
+          </div>
+
+          <div class="footer-column">
+            <h3>Newsletter</h3>
+            <p>
+              Subscribe to receive updates on new products and special offers.
+            </p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email address" required />
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+          </div>
         </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Paresh Trading. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+
+      <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const buttons = document.querySelectorAll(".brand-btn");
+        const sections = document.querySelectorAll(".brand-section");
+    
+        buttons.forEach((button) => {
+          button.addEventListener("click", () => {
+            const selectedBrand = button.getAttribute("data-brand");
+    
+            // Update active button
+            buttons.forEach((btn) => btn.classList.remove("active"));
+            button.classList.add("active");
+    
+            // Show correct brand section
+            sections.forEach((section) => {
+              section.classList.toggle("active", section.id === selectedBrand);
+            });
+          });
+        });
+      });
+    </script>
+    
+  </body>
 </html>
