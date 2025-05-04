@@ -248,11 +248,15 @@ nav ul li a:hover::after {
 }
 
 .content-left {
+    position: relative;
+    top:70px;
     flex: 1;
 }
 
 .content-right {
-    flex: 1;
+    position: relative;
+    top:70px;
+    flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
