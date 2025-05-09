@@ -217,6 +217,7 @@ nav ul li a:hover::after {
 .hero-content {
     position: relative;
     z-index: 1;
+    top:40px;
     color: white;
     max-width: 600px;
     height: 100%;
@@ -887,7 +888,7 @@ footer {
         font-size: 1rem;
         margin-bottom: 20px;
     }
-    
+   
     .slider-controls {
         bottom: 15px;
     }
